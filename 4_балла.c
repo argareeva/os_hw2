@@ -14,9 +14,9 @@ int *shm_gallery;
 int visitors, paintings;
 
 void cleanup() {
-    sem_close(sem_gallery);
-    sem_unlink("/gallery_sem");
-    munmap(shm_gallery, SIZE);
+    sem_close(sem_gallery);         //Закрытие именованного семафора
+    sem_unlink("/gallery_sem");     //Удаление именованного семафора
+    munmap(shm_gallery, SIZE);      //Отключения отображения разделяемой памяти
 }
 
 void sigint_handler(int signum) {
