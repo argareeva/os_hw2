@@ -14,8 +14,8 @@ int *shm_gallery;
 int visitors, paintings;
 
 void cleanup() {
-    sem_destroy(sem_gallery);
-    munmap(shm_gallery, SIZE);
+    sem_destroy(sem_gallery);       //Удаление неименованного семафора
+    munmap(shm_gallery, SIZE);      //Отключения отображения разделяемой памяти
 }
 
 void sigint_handler(int signum) {
