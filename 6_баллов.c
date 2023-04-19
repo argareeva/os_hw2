@@ -83,7 +83,6 @@ int main(int argc, char *argv[]) {
         } else if (pid == 0) {    //Родительский процесс
             for (int j = 1; j <= paintings; j++) {
                 usleep(rand() % 1000);    //Приостановка текущего процесса на заданное количество микросекунд
-                sem_wait(sem_gallery);    //Выполнение операции блокировки семафора
                 if (shm_gallery[j] >= MAX_VISITORS) {
                     printf("Visitor %d waiting for painting %d\n", i, j);
                     while (shm_gallery[j] >= MAX_VISITORS);
@@ -91,7 +90,6 @@ int main(int argc, char *argv[]) {
                 shm_gallery[j]++;
                 printf("Visitor %d viewing painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
                 fprintf(output_file, "Visitor %d viewed painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
-                sem_post(sem_gallery);    //Освобождение семафора
             }
             exit(0);
         }
