@@ -7,6 +7,7 @@
 #include <sys/shm.h>
 #include <signal.h>
 #define MAX_VISITORS 100
+#define MAX_VIEWERS 10
 #define MAX_PAINTINGS 100
 #define SIZE sizeof(int[MAX_PAINTINGS])
 #define SEM_KEY 1234
@@ -83,13 +84,14 @@ int main(int argc, char *argv[]) {
         } else if (pid == 0) {    //Родительский процесс
             for (int j = 1; j <= paintings; j++) {
                 usleep(rand() % 1000);    //Приостановка текущего процесса на заданное количество микросекунд
-                if (shm_gallery[j] >= MAX_VISITORS) {
-                    printf("Visitor %d waiting for painting %d\n", i, j);
-                    while (shm_gallery[j] >= MAX_VISITORS);
+                if (shm_gallery[j] >= MAX_VIEWERS) {
+                    printf("Visitor %d is waiting for painting %d\n", i, j);
+                    fprintf(output_file, "Visitor %d is waiting for painting %d\n", i, j);
+                    usleep(rand() % 100000); 
                 }
                 shm_gallery[j]++;
-                printf("Visitor %d viewing painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
-                fprintf(output_file, "Visitor %d viewed painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
+                printf("Visitor %d watched painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
+                fprintf(output_file, "Visitor %d watched painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
             }
             exit(0);
         }
