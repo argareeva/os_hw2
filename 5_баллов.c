@@ -94,8 +94,8 @@ int main(int argc, char *argv[]) {
                 usleep(rand() % 1000);    //Приостановка текущего процесса на заданное количество микросекунд
                 sem_wait(sem_gallery);    //Выполнение операции блокировки семафора
                 if (shm_gallery[j] >= MAX_VIEWERS) {
-                    printf("Visitor %d waiting for painting %d\n", i, j);
-                    fprintf(output_file, "Visitor %d waiting for painting %d\n", i, j);
+                    printf("Visitor %d is waiting for painting %d\n", i, j);
+                    fprintf(output_file, "Visitor %d is waiting for painting %d\n", i, j);
                     sem_wait(sem_gallery);
                 }
                 shm_gallery[j]++;
