@@ -1,0 +1,152 @@
+Number of visitors: 20
+Number of paintings: 5
+Visitor 11 watched painting 1 (total viewers: 1)
+Visitor 17 watched painting 1 (total viewers: 2)
+Visitor 9 watched painting 1 (total viewers: 3)
+Visitor 10 watched painting 1 (total viewers: 5)
+Visitor 8 watched painting 1 (total viewers: 4)
+Visitor 2 watched painting 1 (total viewers: 6)
+Visitor 1 watched painting 1 (total viewers: 7)
+Visitor 7 watched painting 1 (total viewers: 8)
+Visitor 12 watched painting 1 (total viewers: 9)
+Visitor 13 watched painting 1 (total viewers: 10)
+Visitor 14 is waiting for painting 1
+Visitor 14 watched painting 1 (total viewers: 11)
+Visitor 15 is waiting for painting 1
+Visitor 15 watched painting 1 (total viewers: 12)
+Visitor 16 is waiting for painting 1
+Visitor 16 watched painting 1 (total viewers: 13)
+Visitor 4 is waiting for painting 1
+Visitor 4 watched painting 1 (total viewers: 14)
+Visitor 5 is waiting for painting 1
+Visitor 11 watched painting 2 (total viewers: 1)
+Visitor 5 watched painting 1 (total viewers: 15)
+Visitor 17 watched painting 2 (total viewers: 2)
+Visitor 6 is waiting for painting 1
+Visitor 9 watched painting 2 (total viewers: 3)
+Visitor 6 watched painting 1 (total viewers: 16)
+Visitor 8 watched painting 2 (total viewers: 4)
+Visitor 10 watched painting 2 (total viewers: 5)
+Visitor 1 watched painting 2 (total viewers: 6)
+Visitor 2 watched painting 2 (total viewers: 7)
+Visitor 7 watched painting 2 (total viewers: 8)
+Visitor 12 watched painting 2 (total viewers: 9)
+Visitor 13 watched painting 2 (total viewers: 10)
+Visitor 14 is waiting for painting 2
+Visitor 14 watched painting 2 (total viewers: 11)
+Visitor 15 is waiting for painting 2
+Visitor 15 watched painting 2 (total viewers: 12)
+Visitor 16 is waiting for painting 2
+Visitor 16 watched painting 2 (total viewers: 13)
+Visitor 3 is waiting for painting 1
+Visitor 3 watched painting 1 (total viewers: 17)
+Visitor 11 watched painting 3 (total viewers: 2)
+Visitor 17 watched painting 3 (total viewers: 1)
+Visitor 4 is waiting for painting 2
+Visitor 4 watched painting 2 (total viewers: 14)
+Visitor 9 watched painting 3 (total viewers: 3)
+Visitor 8 watched painting 3 (total viewers: 4)
+Visitor 5 is waiting for painting 2
+Visitor 5 watched painting 2 (total viewers: 15)
+Visitor 10 watched painting 3 (total viewers: 5)
+Visitor 1 watched painting 3 (total viewers: 6)
+Visitor 6 is waiting for painting 2
+Visitor 6 watched painting 2 (total viewers: 16)
+Visitor 2 watched painting 3 (total viewers: 7)
+Visitor 12 watched painting 3 (total viewers: 8)
+Visitor 7 watched painting 3 (total viewers: 9)
+Visitor 13 watched painting 3 (total viewers: 10)
+Visitor 15 is waiting for painting 3
+Visitor 15 watched painting 3 (total viewers: 11)
+Visitor 14 is waiting for painting 3
+Visitor 14 watched painting 3 (total viewers: 12)
+Visitor 16 is waiting for painting 3
+Visitor 16 watched painting 3 (total viewers: 13)
+Visitor 3 is waiting for painting 2
+Visitor 3 watched painting 2 (total viewers: 17)
+Visitor 4 is waiting for painting 3
+Visitor 4 watched painting 3 (total viewers: 14)
+Visitor 5 is waiting for painting 3
+Visitor 11 watched painting 4 (total viewers: 1)
+Visitor 5 watched painting 3 (total viewers: 15)
+Visitor 17 watched painting 4 (total viewers: 2)
+Visitor 6 is waiting for painting 3
+Visitor 8 watched painting 4 (total viewers: 3)
+Visitor 9 watched painting 4 (total viewers: 4)
+Visitor 6 watched painting 3 (total viewers: 16)
+Visitor 10 watched painting 4 (total viewers: 5)
+Visitor 1 watched painting 4 (total viewers: 6)
+Visitor 2 watched painting 4 (total viewers: 7)
+Visitor 7 watched painting 4 (total viewers: 8)
+Visitor 13 watched painting 4 (total viewers: 9)
+Visitor 12 watched painting 4 (total viewers: 10)
+Visitor 15 is waiting for painting 4
+Visitor 15 watched painting 4 (total viewers: 11)
+Visitor 3 is waiting for painting 3
+Visitor 14 is waiting for painting 4
+Visitor 3 watched painting 3 (total viewers: 17)
+Visitor 14 watched painting 4 (total viewers: 12)
+Visitor 16 is waiting for painting 4
+Visitor 16 watched painting 4 (total viewers: 13)
+Visitor 11 watched painting 5 (total viewers: 1)
+Visitor 17 watched painting 5 (total viewers: 2)
+Visitor 4 is waiting for painting 4
+Visitor 4 watched painting 4 (total viewers: 14)
+Visitor 8 watched painting 5 (total viewers: 3)
+Visitor 9 watched painting 5 (total viewers: 4)
+Visitor 5 is waiting for painting 4
+Visitor 5 watched painting 4 (total viewers: 15)
+Visitor 10 watched painting 5 (total viewers: 5)
+Visitor 6 is waiting for painting 4
+Visitor 6 watched painting 4 (total viewers: 16)
+Visitor 2 watched painting 5 (total viewers: 6)
+Visitor 13 watched painting 5 (total viewers: 8)
+Visitor 1 watched painting 5 (total viewers: 7)
+Visitor 20 is waiting for painting 1
+Visitor 12 watched painting 5 (total viewers: 9)
+Visitor 20 watched painting 1 (total viewers: 18)
+Visitor 15 watched painting 5 (total viewers: 10)
+Visitor 19 is waiting for painting 1
+Visitor 19 watched painting 1 (total viewers: 19)
+Visitor 7 is waiting for painting 5
+Visitor 14 is waiting for painting 5
+Visitor 7 watched painting 5 (total viewers: 11)
+Visitor 14 watched painting 5 (total viewers: 12)
+Visitor 18 is waiting for painting 1
+Visitor 18 watched painting 1 (total viewers: 20)
+Visitor 3 is waiting for painting 4
+Visitor 3 watched painting 4 (total viewers: 17)
+Visitor 16 is waiting for painting 5
+Visitor 16 watched painting 5 (total viewers: 13)
+Visitor 4 is waiting for painting 5
+Visitor 4 watched painting 5 (total viewers: 14)
+Visitor 5 is waiting for painting 5
+Visitor 5 watched painting 5 (total viewers: 15)
+Visitor 6 is waiting for painting 5
+Visitor 6 watched painting 5 (total viewers: 16)
+Visitor 20 is waiting for painting 2
+Visitor 20 watched painting 2 (total viewers: 18)
+Visitor 3 is waiting for painting 5
+Visitor 3 watched painting 5 (total viewers: 17)
+Visitor 18 is waiting for painting 2
+Visitor 18 watched painting 2 (total viewers: 19)
+Visitor 19 is waiting for painting 2
+Visitor 19 watched painting 2 (total viewers: 20)
+Visitor 20 is waiting for painting 3
+Visitor 20 watched painting 3 (total viewers: 18)
+Visitor 18 is waiting for painting 3
+Visitor 18 watched painting 3 (total viewers: 19)
+Visitor 20 is waiting for painting 4
+Visitor 20 watched painting 4 (total viewers: 18)
+Visitor 18 is waiting for painting 4
+Visitor 18 watched painting 4 (total viewers: 19)
+Visitor 20 is waiting for painting 5
+Visitor 20 watched painting 5 (total viewers: 18)
+Visitor 18 is waiting for painting 5
+Visitor 18 watched painting 5 (total viewers: 19)
+Visitor 19 is waiting for painting 3
+Visitor 19 watched painting 3 (total viewers: 20)
+Visitor 19 is waiting for painting 4
+Visitor 19 watched painting 4 (total viewers: 20)
+Visitor 19 is waiting for painting 5
+Visitor 19 watched painting 5 (total viewers: 20)
