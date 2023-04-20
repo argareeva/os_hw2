@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
 
     fscanf(input_file, "%d %d", &visitors, &paintings);
     printf("Number of visitors: %d\nNumber of paintings: %d\n", visitors, paintings);
+    fprintf(output_file, "Number of visitors: %d\nNumber of paintings: %d\n", visitors, paintings);
 
     //Создание области разделяемой памяти
     shm_gallery = mmap(NULL, SIZE, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
