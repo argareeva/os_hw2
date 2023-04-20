@@ -45,7 +45,8 @@
 Множество независимых процессов взаимодействуют с использованием именованных POSIX семафоров.  
 Обмен данными ведется через разделяемую память в стандарте POSIX.
 
-Код находится в [7_баллов.c](https://github.com/argareeva/Gareeva-osi-idz1/blob/43c6e2b619b523f0a33f071eb50376ea8058ab96/7_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2.c)  
+Код первого процесса находится в [7_баллов_1.c](https://github.com/argareeva/Gareeva-osi-idz2/blob/main/7_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2_1.c)  
+Код второго процесса находится в [7_баллов_2.c](https://github.com/argareeva/Gareeva-osi-idz2/blob/main/7_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2_2.c)  
 В примечаниях описана схема решаемой задачи
 
 ## 8 баллов
@@ -54,5 +55,6 @@
 Множество независимых процессов взаимодействуют с использованием семафоров в стандарте UNIX SYSTEM V.  
 Обмен данными ведется через разделяемую память в стандарте UNIX SYSTEM V.  
 
-Код находится в [8_баллов.c](https://github.com/argareeva/Gareeva-osi-idz1/blob/43c6e2b619b523f0a33f071eb50376ea8058ab96/8_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2.c)  
+Код первого процесса находится в [8_баллов_1.c](https://github.com/argareeva/Gareeva-osi-idz2/blob/main/8_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2_1.c)  
+Код второго процесса находится в [8_баллов_2.c](https://github.com/argareeva/Gareeva-osi-idz2/blob/main/8_%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2_2.c)  
 В примечаниях описана схема решаемой задачи
