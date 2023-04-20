@@ -5,8 +5,9 @@
 #include <sys/mman.h>
 #include <semaphore.h>
 #include <signal.h>
-#define MAX_PAINTINGS 100
 #define MAX_VISITORS 100
+#define MAX_VIEWERS 10
+#define MAX_PAINTINGS 100
 #define SIZE sizeof(int[MAX_PAINTINGS])
 
 sem_t *sem_gallery;
@@ -72,13 +73,14 @@ int main(int argc, char *argv[]) {
             for (int j = 1; j <= paintings; j++) {
                 usleep(rand() % 1000);    //Приостановка текущего процесса на заданное количество микросекунд
                 sem_wait(sem_gallery);    //Выполнение операции блокировки семафора
-                if (shm_gallery[j] >= MAX_VISITORS) {
-                    printf("Visitor %d waiting for painting %d\n", i, j);
-                    while (shm_gallery[j] >= MAX_VISITORS);
+                if (shm_gallery[j] >= MAX_VIEWERS) {
+                    printf("Visitor %d is waiting for painting %d\n", i, j);
+                    fprintf(output_file, "Visitor %d is waiting for painting %d\n", i, j);
+                    sem_wait(sem_gallery);
                 }
                 shm_gallery[j]++;
-                printf("Visitor %d viewing painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
-                fprintf(output_file, "Visitor %d viewed painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
+                printf("Visitor %d watched painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
+                fprintf(output_file, "Visitor %d watched painting %d (total viewers: %d)\n", i, j, shm_gallery[j]);
                 sem_post(sem_gallery);    //Освобождение семафора
             }
             exit(0);
