@@ -48,6 +48,7 @@ int main(int argc, char *argv[]) {
 
     fscanf(input_file, "%d %d", &visitors, &paintings);
     printf("Number of visitors: %d\nNumber of paintings: %d\n", visitors, paintings);
+    fprintf(output_file, "Number of visitors: %d\nNumber of paintings: %d\n", visitors, paintings);
 
     //Создание новой области разделяемой памяти (или получение уже существующей по заданному ключу)
     shm_id = shmget(SHM_KEY, SIZE, IPC_CREAT | 0666);
