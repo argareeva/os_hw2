@@ -79,10 +79,10 @@ int main(int argc, char *argv[]) {
     pid_t pid;
     for (int i = 1; i <= visitors; i++) {
         pid = fork();
-        if (pid < 0) {    //Дочерний процесс
-            printf("Error creating child process\n");
+        if (pid < 0) {
+            printf("Error creating process\n");
             return 1;
-        } else if (pid == 0) {    //Родительский процесс
+        } else if (pid == 0) {
             for (int j = 1; j <= paintings; j++) {
                 usleep(rand() % 1000);    //Приостановка текущего процесса на заданное количество микросекунд
                 if (shm_gallery[j] >= MAX_VIEWERS) {
