@@ -38,9 +38,9 @@ int main(int argc, char *argv[]) {
     //Установка обработчика на сигнал SIGINT(при нажатии Ctrl+C), чтобы программа корректно завершила работу
     signal(SIGINT, sigint_handler);
     
-    int visitor = atoi(argv[1]);
-
     //Аргументы командной строки  
+    int visitor = atoi(argv[1]);
+    
     FILE *input_file = fopen("input.txt", "r");
     FILE *output_file = fopen("output.txt", "w");
     if (!input_file || !output_file) {
