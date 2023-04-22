@@ -1,0 +1,13 @@
+Number of visitor: 1
+Number of paintings: 10
+Visitor 1 watched painting 1 (total viewers: 1)
+Visitor 1 watched painting 2 (total viewers: 1)
+Visitor 1 watched painting 3 (total viewers: 1)
+Visitor 1 watched painting 4 (total viewers: 1)
+Visitor 1 watched painting 5 (total viewers: 1)
+Visitor 1 watched painting 6 (total viewers: 1)
+Visitor 1 watched painting 7 (total viewers: 1)
+Visitor 1 watched painting 8 (total viewers: 1)
+Visitor 1 watched painting 9 (total viewers: 1)
+Visitor 1 watched painting 10 (total viewers: 1)
+Visitor 1 is leaving gallery

@@ -1,0 +1,8 @@
+Number of visitor: 5
+Number of paintings: 5
+Visitor 5 watched painting 1 (total viewers: 1)
+Visitor 5 watched painting 2 (total viewers: 1)
+Visitor 5 watched painting 3 (total viewers: 1)
+Visitor 5 watched painting 4 (total viewers: 1)
+Visitor 5 watched painting 5 (total viewers: 1)
+Visitor 5 is leaving gallery
