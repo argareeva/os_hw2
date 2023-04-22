@@ -86,7 +86,7 @@ int main(int argc, char *argv[]) {
 
     if(shm_gallery[paintings + 1] == 0) {
         sem_post(sem_gallery);    //Освобождение семафора
-        cleanup();          //Освобождение ресурсов
+        cleanup();              //Освобождение ресурсов
     }
     
     fclose(output_file);
