@@ -1,4 +1,4 @@
-# Gareeva-osi-idz2
+# os_hw2
 
 ## Гареева Альбина БПИ218, Вариант 18
 ### [Задача о картинной галерее](https://edu.hse.ru/tokenpluginfile.php/65e7d670d96b789fead5df7141605abe/2398081/mod_resource/content/0/os_task_02.pdf)
